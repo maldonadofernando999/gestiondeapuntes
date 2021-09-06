@@ -1,0 +1,10 @@
+footer{
+	position: normal;
+	bottom: 0px;
+}
+@media screen and (min-height: 656px){
+	footer{
+		position: fixed;
+		bottom: 0;
+	}
+}

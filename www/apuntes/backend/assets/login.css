@@ -1,0 +1,114 @@
+p, h1, input[type='submit']{
+	font-family: Roboto-Regular;
+}
+body{
+	max-width: 100%;
+	width: 100%;
+	font-family: Roboto;
+	background-color: #D9FED9;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+.home{
+	margin-top: 40px;
+}
+.formularios{
+	display: inline-block;
+	box-shadow: 0px 0px 2px black;
+	margin: 0px auto;
+	margin-top: 40px
+}
+#menu{
+	background: #8FD278;
+	padding: 5px 0;
+	margin: 0 auto;
+	width: 340px;
+	text-align: center;
+}
+#menu h1{
+	font-size: 32px;
+	color: white;
+}
+#formulario_editar{
+	background-color: #FFF;
+	color: #999;
+	font-size: 0.8em;
+	padding: 20px;
+	margin: 0 auto;
+	width: 300px;
+}
+#formulario_editar p{
+	font-size: 16px;
+}
+input{
+	border: 0;
+	outline: none;
+	width: 280px;
+}
+.field{
+	border: solid 1px #CCC;
+	padding: 10px;
+	width: 200px;
+}
+.field:focus{
+	border-color: #18A383;
+}
+.center-content{
+	text-align: center;
+	margin: 15px auto 0 auto;
+}
+.field-container div{
+	display: inline-block;
+	vertical-align: top;
+}
+.field-container i{
+	border: solid 1px #CCC;
+	padding: 10px 10px 12.8px 10px;
+	margin-right: -5px;
+	vertical-align: top;
+}
+.field-container #asd{
+	padding: 10px 10px 12.9px 10px;
+}
+input[type="submit"]{
+	width: 90%;
+	display: inline-block;
+	padding: 15px;
+	background: #8FD278;
+	color: #FFF;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: Roboto-Bold, Sans-Serif;
+	font-size: 16px;
+}
+input[type="submit"]:hover{
+	background-color: rgba(143,210,120, .8);
+}
+.arreglo{
+	margin-left: -150px;
+}
+.arreglod{
+	margin-left: -187px;
+}
+footer{
+	background-color: rgba(143,210,120, .8);
+	margin-top: 10%;
+}
+
+/* SCROLL Personalizado */
+
+body::-webkit-scrollbar {
+	width: 12px;
+	background-color: #D9FED9;
+}
+body::-webkit-scrollbar-thumb {
+	background: #55D057;
+	border-radius: 10px;
+	border-right: 2px solid #D9FED9;
+	height: 100px;
+}

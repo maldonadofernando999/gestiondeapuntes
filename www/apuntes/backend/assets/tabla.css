@@ -1,0 +1,85 @@
+body{
+	background-color: #F2F2F2;
+}
+tr:nth-child(even){
+	background-color: #DDD;
+}
+tr:hover .primer-td{
+	background-color: #3B7889;
+	color: white;
+}
+tr:hover td{
+	background-color: #81BACC;
+	color: white;
+}
+td{
+	padding: 10px;
+}
+td[colspan="6"]{
+	background-color: #3B7889;
+	color: white;
+	border-bottom: 3px solid #1B3941;
+	padding: 20px;
+	text-align: center;
+	font-family: Roboto-Bold, Sans-Serif;
+}
+.no-hover td{
+	font-family: Roboto-Bold, Sans-Serif;
+}
+.no-hover:hover td{
+	background-color: #DDD;
+	color: black;
+}
+.operaciones-center{
+	text-align: center;
+}
+.contenedor-tabla{
+	margin: 32px auto;
+	max-width: 65%;
+	width: 100%;
+}
+table{
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+@media screen and (max-width: 1200px){
+	.contenedor-tabla{
+		max-width: 70%;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1000px){
+	.contenedor-tabla{
+		max-width: 80%;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 850px){
+	.contenedor-tabla{
+		max-width: 85%;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 700px){
+	.contenedor-tabla{
+		margin: 32px 4px;
+		max-width: 98%;
+		width: 100%;
+	}
+	table{
+		table-layout: fixed;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 600px){
+	.contenedor-tabla{
+		margin: 32px 2px;
+		max-width: 99%;
+		width: 100%;
+	}
+	table{
+		font-size: 10px;
+	}
+}

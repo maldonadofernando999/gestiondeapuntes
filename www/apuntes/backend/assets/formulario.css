@@ -1,0 +1,71 @@
+*{
+    font-family: Roboto-Regular;
+}
+body{
+	background-color: #F2F2F2;
+}
+.contenedor-formulario{
+	margin: 0 auto;
+    margin-top: 30px;
+	width: 450px;
+	background-color: white;
+	padding: 25px;
+	text-align: center;
+	box-shadow: 0px 0px 2px black;
+}
+h1{
+    margin-top: 8px;
+    margin-bottom: 36px;
+}
+select{
+	width: 85%;
+	height: 36px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    outline: none;
+}
+select:hover{
+    border-bottom: 1px solid #303F9F;
+    color: #303F9F;
+    -webkit-transition: all ease .5;
+    -o-transition: all ease .5;
+    transition: all ease .5s;
+}
+select:focus{
+    border-bottom: 1px solid #303F9F;
+    color: black;
+}
+input[type="submit"]{
+    width: 90%;
+    display: inline-block;
+    padding: 15px;
+    background: #303F9F;
+    color: #FFF;
+    border: 2px solid #F2F2F2;
+    border-radius: 1px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: Roboto-Bold, Sans-Serif;
+    font-size: 16px;
+}
+input[type="submit"]:hover{
+	background-color: rgba(48,63,159, .9);
+}
+input[type="file"]::-webkit-file-upload-button{
+    padding: 10px 15px;
+    color: #FFF;
+    background: #303F9F;
+    border: none;
+    font-family: 'Roboto-Regular';
+    font-size: 12px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+input[type="file"]::-webkit-file-upload-button:hover{
+    background-color: rgba(48,63,159, .9);
+}

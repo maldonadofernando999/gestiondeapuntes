@@ -1,0 +1,33 @@
+.contenedor-redirigir{
+	margin: 0px auto;
+	margin-top: 0px;
+	width: 45%;
+}
+.btn-red, .btn-red-ot{
+    border: none;
+    padding: 15px;
+    background: #38993A;
+    color: #FFF;
+    border-radius: 1px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: Roboto-Bold, Sans-Serif;
+    font-size: 16px;
+}
+.btn-red{
+    width: 30%;
+}
+.btn-red-ot{
+    width: 46%;
+}
+.boton-profesores{
+    margin: 0% 3%;
+}
+input[type="button"]:hover{
+	background-color: rgba(56, 153, 58, .9);
+}
+.boton-apuntes-otro, .boton-profesores-otro{
+    width: 48%;
+}

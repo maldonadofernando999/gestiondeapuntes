@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+footer{
+	text-align: center;
+	font-family: Roboto-Regular;
+	padding: .5px 0;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	max-width: 100%;
+	width: 100%;
+	background: #3B7889;
+	color: black;
+	font-weight: bold;
+}
+h3{
+	font-size: 16px;
+	margin: 12px 0;
+}
+@media screen and (max-width: 700px){
+	h3{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 500px){
+	h3{
+		font-size: 12px;
+	}
+}

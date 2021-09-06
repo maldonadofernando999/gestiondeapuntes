@@ -1,0 +1,36 @@
+@media screen and (max-width: 900px){
+	.contenedor-redirigir input[type="button"]{
+	    width: 100%;
+	}
+	.contenedor-redirigir .boton-profesores{
+	    margin: 3% 0%;
+	}
+}
+@media screen and (max-width: 770px){
+	.admin-tabla{
+		width: 90%;
+	}
+	.unlogin a img{
+		width: 25px;
+	}
+	.unlogin{
+		top: 15px;
+		right: 15px;
+	}
+}
+@media screen and (max-width: 700px){
+	.admin-tabla{
+		width: 97%;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 460px){
+	.contenedor-formulario{
+		max-width: 400px
+	}
+}
+@media screen and (max-width: 410px){
+	.contenedor-formulario{
+		max-width: 350px
+	}
+}
